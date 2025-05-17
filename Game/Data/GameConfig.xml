@@ -1,0 +1,16 @@
+<GameConfig
+	worldSeed="0"
+	nightSkyColor="0,0,0"
+	daySkyColor="200,230,255"
+	nightOutdoorLightColor="20,20,40"
+	dayOutdoorLightColor="255,255,255"
+	indoorLightColor="255,230,200"
+	
+	maxOceanDepth="15"
+	guaranteeHeight="20"
+	minHeightHill="5"
+	baseHeight="40"
+	
+	debugAlwaysDay="true"
+	/>
+

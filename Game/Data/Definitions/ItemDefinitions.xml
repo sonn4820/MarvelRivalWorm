@@ -1,0 +1,5 @@
+<Definitions>
+	<ItemDefinition name="Hulk_S2">
+		<Visuals halfLength="1,1" offsetAngle="0" image="Data/Images/Hulk/Hulk_S2.png"/>
+	</ItemDefinition>
+</Definitions>

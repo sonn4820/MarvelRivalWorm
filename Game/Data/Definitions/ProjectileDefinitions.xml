@@ -1,0 +1,96 @@
+<Definitions>
+	<!-- NA -->
+	<ProjectileDefinition name="Hela_NA">
+		<Collision hitRadius="2.5" destructionRadius="2.6"/>
+		<Visuals halfLength="2,2" offsetAngle="45" image="Data/Images/Hela/Hela_NA.png"/>
+		<Sounds name ="Hela_NA_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Adam_NA">
+		<Collision hitRadius="2.75" destructionRadius="4.5"/>
+		<Visuals halfLength="2.5,2.5" offsetAngle="45" image="Data/Images/Adam/Adam_NA.png"/>
+		<Sounds name ="Adam_NA_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Hulk_NA" isMelee="true" meleeMaxRange="20">
+		<Collision hitRadius="6" destructionRadius="7"/>
+		<Visuals halfLength="4,4" offsetAngle="45" image="Data/Images/Hulk/Hulk_NA.png"/>
+		<Sounds name ="Hulk_NA_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Thor_NA" isMelee="true" meleeMaxRange="30">
+		<Collision hitRadius="3.5" destructionRadius="8.5"/>
+		<Visuals halfLength="3,3" offsetAngle="45" image="Data/Images/Thor/Thor_NA.png"/>
+		<Sounds name ="Thor_NA_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="IW_NA" isHealing="true" canOverHeal="false" healingValue="120">
+		<Collision hitRadius="3" destructionRadius="1.5"/>
+		<Visuals halfLength="2.25,2.25" offsetAngle="45" image="Data/Images/IW/IW_NA.png"/>
+		<Sounds name ="IW_NA_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Iron_NA">
+		<Collision hitRadius="2.5" destructionRadius="7.5"/>
+		<Visuals halfLength="2,2" offsetAngle="45" image="Data/Images/Iron/Iron_NA.png"/>
+		<Sounds name ="Iron_NA_C"/>
+	</ProjectileDefinition>
+
+	<!-- Ultimate -->
+	<ProjectileDefinition name="Hela_Ult">
+		<Collision hitRadius="5" destructionRadius="10.5"/>
+		<Visuals halfLength="8,8" image="Data/Images/Hela/Hela_Ultimate.png"/>
+		<Sounds name ="Hela_Ult_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Iron_Ult">
+		<Collision hitRadius="0" destructionRadius="0"/>
+		<Visuals halfLength="60,18" offsetAngle="270" image="Data/Images/Iron/Iron_Ultimate.png"/>
+		<Sounds name ="Iron_Ult_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="IW_Ult">
+		<Collision hitRadius="4" destructionRadius="0" amageScale ="0.0"  isHealing="true" canOverHeal="true" healingValue="400"/>
+		<Visuals halfLength="3,3" offsetAngle="0" image="Data/Images/IW/IW_Ultimate.png"/>
+		<Sounds name ="IW_Ult_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="IW_Ult_Field">
+		<Collision hitRadius="0" destructionRadius="0"/>
+		<Visuals halfLength="8,64" offsetAngle="0" image="Data/Images/IW/IW_Ultimate_Field.png"/>
+	</ProjectileDefinition>
+
+	<!-- Skill -->
+	<ProjectileDefinition name="Hela_S2" damageScale ="0.0" isTeleport="true">
+		<Collision hitRadius="0" destructionRadius="0"/>
+		<Visuals halfLength="2,2" image="Data/Images/Hela/Hela_S2.png"/>
+		<Sounds name ="Hela_S2_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Adam_S2" damageScale ="0.0" isHealing="true" canOverHeal="true" healingValue="200">
+		<Collision hitRadius="3" destructionRadius="0"/>
+		<Visuals halfLength="2,2" image="Data/Images/Adam/Adam_S2.png"/>
+		<Sounds name ="Adam_S2_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="Iron_S1">
+		<Collision hitRadius="3.5" destructionRadius="9.5"/>
+		<Visuals halfLength="2.5,2.5" offsetAngle="45" image="Data/Images/Iron/Iron_S1.png"/>
+		<Sounds name ="Iron_S1_C"/>
+	</ProjectileDefinition>
+	
+	<ProjectileDefinition name="Iron_S2" damageScale ="0.45">
+		<Collision hitRadius="2.5" destructionRadius="6"/>
+		<Homing homingRange="10" homingSpeed="500"/>
+		<Visuals halfLength="2,2" offsetAngle="0" image="Data/Images/Iron/Iron_S2.png"/>
+		<Sounds name ="Iron_S2_C"/>
+	</ProjectileDefinition>
+
+	<ProjectileDefinition name="IW_S2">
+		<Collision hitRadius="20" destructionRadius="0"/>
+		<Visuals halfLength="20,20" offsetAngle="0" image="Data/Images/IW/IW_S2.png"/>
+		<Sounds name ="IW_S2_C"/>
+	</ProjectileDefinition>
+
+</Definitions>
+

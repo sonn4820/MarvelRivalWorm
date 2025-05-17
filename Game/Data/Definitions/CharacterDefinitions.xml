@@ -1,0 +1,141 @@
+<Definitions>
+	
+	<!-- ALL ANGLE LIMIT is for facing right-->
+	<!-- AVOID 0 and 180 value for ANGLE LIMIT-->
+	
+	
+	<!-- Grave -->
+	<CharacterDefinition name="Grave" health="-1">
+		<Visuals halfLength="3,3" image="Data/Images/Grave.png"/>
+	</CharacterDefinition>
+	
+	<!-- Hela -->
+	<CharacterDefinition name="Hela" health="700" speed="100" stamina="230" armor="10" attack="65" angleLimit="20.0~80.0" forceLimit="0.0~100.0" gravity="9.8" isMelee="false" skill1Cost="50" skill2Cost="80" skill1Cooldown="0" skill2Cooldown="2">
+		<Collision radius="3"/>
+		<Visuals halfLength="3,3" image="Data/Images/Hela/Hela_Character.png"/>
+		<Weapon>
+			<Projectile name="Hela_NA" />
+			<Projectile name="Hela_Ultimate" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0" name="Hela_Throw"/>
+			<Sound slot="1" name="Hela_S1_U"/>
+			<Sound slot="2" name="Hela_S2_U"/>
+			<Sound slot="3" name="Hela_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/Hela/Hela_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/Hela/Hela_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/Hela/Hela_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+
+	<!-- Iron Man -->
+	<CharacterDefinition name="Iron" health="720" speed="105" stamina="510" armor="10" attack="160" angleLimit="-85.0~85.0" forceLimit="0.0~100.0" gravity="9.8" isMelee="false" skill1Cost="350" skill2Cost="80" skill1Cooldown="2" skill2Cooldown="0">
+		<Collision radius="3.5"/>
+		<Visuals halfLength="3.5,3.5" image="Data/Images/Iron/Iron_Character.png"/>
+		<Weapon>
+			<Projectile name="Iron_NA" />
+			<Projectile name="Iron_S1" />
+			<Projectile name="Iron_S2" />
+			<Projectile name="Iron_Ultimate" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0"	name="Iron_Throw"/>
+			<Sound slot="1" name="Iron_S1_U"/>
+			<Sound slot="2" name="Iron_S2_U"/>
+			<Sound slot="3" name="Iron_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/Iron/Iron_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/Iron/Iron_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/Iron/Iron_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+
+	<!-- Hulk -->
+	<CharacterDefinition name="Hulk" health="1200" speed="70" stamina="220" armor="30" attack="70" angleLimit="-45.0~89.0"  gravity="20.8" isMelee="true" skill1Cost="90" skill2Cost="80" skill1Cooldown="0" skill2Cooldown="1">
+		<Collision radius="5"/>
+		<Visuals halfLength="5,5" image="Data/Images/Hulk/Hulk_Character.png"/>
+		<Weapon>
+			<Projectile name="Hulk_NA" />
+			<Projectile name="Hulk_Ultimate" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0"	name="Hulk_Throw"/>
+			<Sound slot="1"	name="Hulk_S1_U"/>
+			<Sound slot="2"	name="Hulk_S2_U"/>
+			<Sound slot="3"	name="Hulk_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/Hulk/Hulk_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/Hulk/Hulk_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/Hulk/Hulk_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+
+	<!-- Thor -->
+	<CharacterDefinition name="Thor" health="1000" speed="95" stamina="200" armor="30" attack="60" angleLimit="-45.0~60.0" gravity="20.8" isMelee="true" skill1Cost="100" skill2Cost="50" skill1Cooldown="1" skill2Cooldown="0">
+		<Collision radius="4"/>
+		<Visuals halfLength="4,4" image="Data/Images/Thor/Thor_Character.png"/>
+		<Weapon>
+			<Projectile name="Thor_NA" />
+			<Projectile name="Thor_Ultimate" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0"	name="Thor_Throw"/>
+			<Sound slot="1"	name="Thor_S1_U"/>
+			<Sound slot="2"	name="Thor_S2_U"/>
+			<Sound slot="3"	name="Thor_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/Thor/Thor_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/Thor/Thor_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/Thor/Thor_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+
+	<!-- Invisible Woman -->
+	<CharacterDefinition name="IW" health="560" speed="120" stamina="280" armor="15" attack="80" angleLimit="10.0~89.0" forceLimit="0.0~100.0" gravity="15.8" isMelee="false" skill1Cost="60" skill2Cost="180" skill1Cooldown="0" skill2Cooldown="3">
+		<Collision radius="3.5"/>
+		<Visuals halfLength="3.5,3.5" image="Data/Images/IW/IW_Character.png"/>
+		<Weapon>
+			<Projectile name="IW_NA" />
+			<Projectile name="IW_Ultimate" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0"	name="IW_Throw"/>
+			<Sound slot="1"	name="IW_S1_U"/>
+			<Sound slot="2"	name="IW_S2_U"/>
+			<Sound slot="3"	name="IW_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/IW/IW_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/IW/IW_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/IW/IW_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+
+	<!-- Adam Warlock -->
+	<CharacterDefinition name="Adam" health="620" speed="110" stamina="350" armor="15" attack="65" angleLimit="1.0~89.0" forceLimit="0.0~100.0" gravity="15.8" isMelee="false" skill1Cost="170" skill2Cost="280" skill1Cooldown="1" skill2Cooldown="2">
+		<Collision radius="3"/>
+		<Visuals halfLength="3,3" image="Data/Images/Adam/Adam_Character.png"/>
+		<Weapon>
+			<Projectile name="Adam_NA" />
+			<Projectile name="Adam_Skill" />
+		</Weapon>
+		<Sounds>
+			<Sound slot="0"	name="Adam_Throw"/>
+			<Sound slot="1"	name="Adam_S1_U"/>
+			<Sound slot="2"	name="Adam_S2_U"/>
+			<Sound slot="3"	name="Adam_Ult_U"/>
+		</Sounds>
+		<UI>
+			<Sprite image="Data/Images/Adam/Adam_Skill_1_Icon.png" />
+			<Sprite image="Data/Images/Adam/Adam_Skill_2_Icon.png" />
+			<Sprite image="Data/Images/Adam/Adam_Ultimate_Icon.png" />
+		</UI>
+	</CharacterDefinition>
+	
+</Definitions>
+

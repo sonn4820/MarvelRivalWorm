@@ -1,0 +1,36 @@
+<Definitions>
+	<UIDefinition name="Select_Player"				path="Data/Images/UI/UI_Player.png"/>
+	<UIDefinition name="Select_Add"					path="Data/Images/UI/UI_Add.png"/>
+	<UIDefinition name="Select_AI"					path="Data/Images/UI/UI_AI.png"/>
+
+	<UIDefinition name="Character_Hela"				path="Data/Images/UI/UI_Hela.png"/>
+	<UIDefinition name="Character_Iron"				path="Data/Images/UI/UI_Iron.png"/>
+	<UIDefinition name="Character_Adam"				path="Data/Images/UI/UI_Adam.png"/>
+	<UIDefinition name="Character_IW"				path="Data/Images/UI/UI_IW.png"/>
+	<UIDefinition name="Character_Hulk"				path="Data/Images/UI/UI_Hulk.png"/>
+	<UIDefinition name="Character_Thor"				path="Data/Images/UI/UI_Thor.png"/>
+
+	<UIDefinition name="Character_Hela_S1"				path="Data/Images/UI/UI_Hela_S1.png"/>
+	<UIDefinition name="Character_Hela_S2"				path="Data/Images/UI/UI_Hela_S2.png"/>
+	<UIDefinition name="Character_Hela_U"				path="Data/Images/UI/UI_Hela_U.png"/>
+
+	<UIDefinition name="Character_Iron_S1"				path="Data/Images/UI/UI_Iron_S1.png"/>
+	<UIDefinition name="Character_Iron_S2"				path="Data/Images/UI/UI_Iron_S2.png"/>
+	<UIDefinition name="Character_Iron_U"				path="Data/Images/UI/UI_Iron_U.png"/>
+
+	<UIDefinition name="Character_Adam_S1"				path="Data/Images/UI/UI_Adam_S1.png"/>
+	<UIDefinition name="Character_Adam_S2"				path="Data/Images/UI/UI_Adam_S2.png"/>
+	<UIDefinition name="Character_Adam_U"				path="Data/Images/UI/UI_Adam_U.png"/>
+
+	<UIDefinition name="Character_IW_S1"				path="Data/Images/UI/UI_IW_S1.png"/>
+	<UIDefinition name="Character_IW_S2"				path="Data/Images/UI/UI_IW_S2.png"/>
+	<UIDefinition name="Character_IW_U"					path="Data/Images/UI/UI_IW_U.png"/>
+
+	<UIDefinition name="Character_Hulk_S1"				path="Data/Images/UI/UI_Hulk_S1.png"/>
+	<UIDefinition name="Character_Hulk_S2"				path="Data/Images/UI/UI_Hulk_S2.png"/>
+	<UIDefinition name="Character_Hulk_U"				path="Data/Images/UI/UI_Hulk_U.png"/>
+
+	<UIDefinition name="Character_Thor_S1"				path="Data/Images/UI/UI_Thor_S1.png"/>
+	<UIDefinition name="Character_Thor_S2"				path="Data/Images/UI/UI_Thor_S2.png"/>
+	<UIDefinition name="Character_Thor_U"				path="Data/Images/UI/UI_Thor_U.png"/>
+</Definitions>

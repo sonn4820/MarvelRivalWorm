@@ -1,0 +1,71 @@
+<Definitions>
+	<!--Music-->
+	<AudioDefinition name="Game"				path="Data/Audios/Music/Game.mp3"/>
+	<AudioDefinition name="SelectTeam"			path="Data/Audios/Music/SelectTeam.wav"/>
+	<AudioDefinition name="SelectCharacter"		path="Data/Audios/Music/SelectCharacter.mp3"/>
+	<AudioDefinition name="AllSelected"			path="Data/Audios/Music/Ready.wav"/>
+	
+	<!--Character-->
+	<AudioDefinition name="Heal"		path="Data/Audios/Character/Heal.wav"/>
+	<AudioDefinition name="Walk_Grass"	path="Data/Audios/Character/Walk_Grass.wav"/>
+	<AudioDefinition name="Walk_Sand"	path="Data/Audios/Character/Walk_Sand.wav"/>
+	<AudioDefinition name="Walk_Ice"	path="Data/Audios/Character/Walk_Ice.wav"/>
+	<AudioDefinition name="Walk_Water"	path="Data/Audios/Character/Walk_Water.wav"/>
+	<AudioDefinition name="Walk_Snow"	path="Data/Audios/Character/Walk_Snow.wav"/>
+	<AudioDefinition name="Walk_Stone"	path="Data/Audios/Character/Walk_Stone.wav"/>
+
+	<!--Item-->
+	<AudioDefinition name="Hulk_Shield"	path="Data/Audios/Item/Hulk_Shield.wav"/>
+
+	<!--Adam-->
+	<AudioDefinition name="Adam_Throw"	path="Data/Audios/Adam/Adam_Throw.wav"/>
+	<AudioDefinition name="Adam_NA_C"	path="Data/Audios/Adam/Adam_NA_C.wav"/>
+	<AudioDefinition name="Adam_S1_U"	path="Data/Audios/Adam/Adam_S1_U.wav"/>
+	<AudioDefinition name="Adam_S2_U"	path="Data/Audios/Adam/Adam_S2_U.wav"/>
+	<AudioDefinition name="Adam_S2_C"	path="Data/Audios/Adam/Adam_S2_C.wav"/>
+	<AudioDefinition name="Adam_Ult_U"	path="Data/Audios/Adam/Adam_Ult_U.wav"/>
+
+	<!--Hela-->
+	<AudioDefinition name="Hela_Throw"	path="Data/Audios/Hela/Hela_Throw.wav"/>
+	<AudioDefinition name="Hela_NA_C"	path="Data/Audios/Hela/Hela_NA_C.wav"/>
+	<AudioDefinition name="Hela_S1_U"	path="Data/Audios/Hela/Hela_S1_U.wav"/>
+	<AudioDefinition name="Hela_S2_C"	path="Data/Audios/Hela/Hela_S2_C.wav"/>
+	<AudioDefinition name="Hela_Ult_U"	path="Data/Audios/Hela/Hela_Ult_U.wav"/>
+	<AudioDefinition name="Hela_Ult_C"	path="Data/Audios/Hela/Hela_Ult_C.wav"/>
+
+	<!--Hulk-->
+	<AudioDefinition name="Hulk_Throw"	path="Data/Audios/Hulk/Hulk_Throw.wav"/>
+	<AudioDefinition name="Hulk_NA_C"	path="Data/Audios/Hulk/Hulk_NA_C.wav"/>
+	<AudioDefinition name="Hulk_S1_U"	path="Data/Audios/Hulk/Hulk_S1_U.wav"/>
+	<AudioDefinition name="Hulk_S2_U"	path="Data/Audios/Hulk/Hulk_S2_U.wav"/>
+	<AudioDefinition name="Hulk_Ult_U"	path="Data/Audios/Hulk/Hulk_Ult_U.wav"/>
+
+	<!--Iron-->
+	<AudioDefinition name="Iron_Throw"	path="Data/Audios/Iron/Iron_Throw.wav"/>
+	<AudioDefinition name="Iron_NA_C"	path="Data/Audios/Iron/Iron_NA_C.wav"/>
+	<AudioDefinition name="Iron_S1_U"	path="Data/Audios/Iron/Iron_S1_U.wav"/>
+	<AudioDefinition name="Iron_S1_C"	path="Data/Audios/Iron/Iron_S1_C.wav"/>
+	<AudioDefinition name="Iron_S2_U"	path="Data/Audios/Iron/Iron_S2_U.wav"/>
+	<AudioDefinition name="Iron_S2_C"	path="Data/Audios/Iron/Iron_S2_C.wav"/>
+	<AudioDefinition name="Iron_Ult_U"	path="Data/Audios/Iron/Iron_Ult_U.wav"/>
+	<AudioDefinition name="Iron_Ult_C"	path="Data/Audios/Iron/Iron_Ult_C.wav"/>
+	<AudioDefinition name="Iron_FirstMove"	path="Data/Audios/Iron/Iron_FirstMove.wav"/>
+	<AudioDefinition name="Iron_Flying"		path="Data/Audios/Iron/Iron_Flying.wav"/>
+
+	<!--IW-->
+	<AudioDefinition name="IW_Throw"	path="Data/Audios/IW/IW_Throw.wav"/>
+	<AudioDefinition name="IW_NA_C"		path="Data/Audios/IW/IW_NA_C.wav"/>
+	<AudioDefinition name="IW_S1_U"		path="Data/Audios/IW/IW_S1_U.wav"/>
+	<AudioDefinition name="IW_S2_C"		path="Data/Audios/IW/IW_S2_C.wav"/>
+	<AudioDefinition name="IW_Ult_U"	path="Data/Audios/IW/IW_Ult_U.wav"/>
+	<AudioDefinition name="IW_Ult_C"	path="Data/Audios/IW/IW_Ult_C.wav"/>
+
+	<!--Thor-->
+	<AudioDefinition name="Thor_Throw"	path="Data/Audios/Thor/Thor_Throw.wav"/>
+	<AudioDefinition name="Thor_NA_C"	path="Data/Audios/Thor/Thor_NA_C.wav"/>
+	<AudioDefinition name="Thor_S1_U"	path="Data/Audios/Thor/Thor_S1_U.wav"/>
+	<AudioDefinition name="Thor_S2_U"	path="Data/Audios/Thor/Thor_S2_U.wav"/>
+	<AudioDefinition name="Thor_Ult_U"	path="Data/Audios/Thor/Thor_Ult_U.wav"/>
+	<AudioDefinition name="Thor_Ult_C"	path="Data/Audios/Thor/Thor_Ult_C.wav"/>
+
+</Definitions>
