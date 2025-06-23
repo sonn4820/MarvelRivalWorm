@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{548a8f28-1bab-43a9-b99a-20a9ddfcce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Entity">
+      <UniqueIdentifier>{748106cf-7f9c-4026-9270-dfd1b4ee2585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game System">
+      <UniqueIdentifier>{d5dc1590-be54-408e-ad30-645e77a30f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Misc">
+      <UniqueIdentifier>{fbf456cb-8dca-4f02-8c1a-b8b066ebbc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{fa49deef-45b9-4717-bab3-fbede322bdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Entity\Characters">
+      <UniqueIdentifier>{5f50891a-743c-492e-b610-6e846f08353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game System\ParticleSystem">
+      <UniqueIdentifier>{d24dd958-e0d5-4685-bc34-d2b58158e362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Game System\AudioManager">
+      <UniqueIdentifier>{5bd34428-2991-4a16-a8ea-09f61ca24b80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="Thor_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Hela_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Hulk_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Iron_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="IW_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Adam_Character.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Grave.cpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareParticle.cpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemDFS2.cpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManagerDFS2.cpp">
+      <Filter>Gameplay\Game System\AudioManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="Thor_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Hela_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Hulk_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="IW_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Adam_Character.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterCommon.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Grave.hpp">
+      <Filter>Gameplay\Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AllCharacters.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.hpp">
+      <Filter>Gameplay\Game System</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterList.hpp">
+      <Filter>Gameplay\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareParticle.hpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.hpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemDFS2.hpp">
+      <Filter>Gameplay\Game System\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManagerDFS2.hpp">
+      <Filter>Gameplay\Game System\AudioManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\CharacterDefinitions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ProjectileDefinitions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ItemDefinitions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Commands.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\AudioDefinitions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\UIDefinitions.xml">
+      <Filter>XML</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
